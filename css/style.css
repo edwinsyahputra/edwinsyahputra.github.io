@@ -845,6 +845,13 @@ header {
     line-height: 2.1rem;
     margin: 0.6rem 0;
   }
+
+  .about-data a.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .education-content {
     grid-template-columns: 1fr;
   }
