@@ -740,6 +740,15 @@ header {
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
+
+  .experience-text {
+    text-align: start;
+  }
+
+  .education-box p {
+    text-align: justify;
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 775px) {
@@ -793,6 +802,11 @@ header {
 }
 
 @media (max-width: 635px) {
+  .circles {
+    width: 100%;
+    height: 80%;
+  }
+
   .about-content {
     grid-template-columns: 1fr;
   }
@@ -809,8 +823,13 @@ header {
     font-size: 0.825rem;
     margin-bottom: 1.3rem;
   }
+
   .projects-content {
     grid-template-columns: repeat(2, 200px);
+  }
+
+  .certification-content {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -819,6 +838,7 @@ header {
     min-height: 485px;
     padding-top: 5rem;
   }
+
   .home-img {
     width: 140px;
     height: 140px;
@@ -847,6 +867,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .experience-data span {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .experience-data h2 {
+    font-size: 1rem;
+  }
+
+  .experience-data h3 {
+    font-size: 0.8rem;
+  }
+
+  .experience-text {
+    padding: 10px;
+    font-size: 0.8rem;
+    text-align: justify;
   }
 
   .education-content {
