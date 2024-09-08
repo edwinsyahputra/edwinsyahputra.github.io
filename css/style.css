@@ -802,11 +802,6 @@ header {
 }
 
 @media (max-width: 635px) {
-  .circles {
-    width: 100%;
-    height: 60%;
-  }
-
   .about-content {
     grid-template-columns: 1fr;
   }
@@ -834,6 +829,11 @@ header {
 }
 
 @media (max-width: 450px) {
+  .circles {
+    width: 100%;
+    height: 70%;
+  }
+
   .home {
     min-height: 485px;
     padding-top: 5rem;
