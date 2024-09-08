@@ -245,7 +245,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 7rem;
 }
 
 .home-content {
@@ -757,7 +756,6 @@ header {
   }
   .home {
     height: 100vh;
-    padding-top: 5rem;
   }
   .home-text h3 {
     font-size: 1rem;
@@ -804,7 +802,7 @@ header {
 @media (max-width: 635px) {
   .about-content {
     grid-template-columns: 1fr;
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
   .about-data span {
     font-size: 0.9rem;
