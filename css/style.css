@@ -830,7 +830,6 @@ header {
 
 @media (max-width: 450px) {
   .home {
-    min-height: 485px;
     padding-top: 5rem;
   }
 
