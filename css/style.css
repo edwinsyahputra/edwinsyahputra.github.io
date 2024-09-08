@@ -803,8 +803,12 @@ header {
 
 @media (max-width: 635px) {
   .home-content {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
+  }
+
+  .about.container {
+    padding-top: 5rem;
   }
 
   .about-content {
@@ -840,7 +844,6 @@ header {
   }
 
   .home-content {
-    padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
