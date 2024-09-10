@@ -409,7 +409,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: justify;
   padding: 15px;
   background: var(--container-color);
   border-radius: 0.4rem;
@@ -458,6 +458,10 @@ header {
   font-size: 1.3rem;
   padding: 10px;
   color: var(--bg-color);
+}
+
+.experience-text {
+  text-align: justify;
 }
 
 .experience-text p a:hover {
@@ -741,10 +745,6 @@ header {
     text-align: center;
   }
 
-  .experience-text {
-    text-align: start;
-  }
-
   .education-box p {
     text-align: justify;
     padding-top: 10px;
@@ -880,7 +880,6 @@ header {
   .experience-text {
     padding: 10px;
     font-size: 0.8rem;
-    text-align: justify;
   }
 
   .education-content {
